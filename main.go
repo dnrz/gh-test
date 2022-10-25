@@ -22,10 +22,6 @@ var users map[int]User
 
 var id int
 
-func ingresoDatos() {
-
-}
-
 func crearUsuario() {
 	clearConsole()
 	fmt.Print("Ingresa un valor para username: ")
