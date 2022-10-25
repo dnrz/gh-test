@@ -79,9 +79,7 @@ func eliminarUsuario() {
 		panic("NO se puede man")
 	}
 
-	if _, ok := users[id]; ok {
-		delete(users, id)
-	}
+	delete(users, id)
 
 	fmt.Println("Eliminado")
 }
